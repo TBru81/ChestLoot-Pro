@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+ChestLootPro_Settings.json
+ChestLootPro_Knowledge.json
+ChestMasterPro_Settings.json
+ChestMasterPro_Knowledge.json
