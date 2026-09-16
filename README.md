@@ -8,9 +8,9 @@ This release includes Dungeon Chest Mode, Shop Chest Mode, and Exodus Decorative
 
 ## Download and install
 
-1. On this repository's GitHub page, select **Code → Download ZIP** and extract it. Keep the full folder; do not download only the main `.py` file. A separate `ChestLoot_Pro_1_0.zip` package is also available once a release download is posted.
-2. Keep `ChestLoot_Pro_1_0.py` beside the entire `chestloot_modes` folder.
-3. In ClassicUO with Razor Enhanced, add `ChestLoot_Pro_1_0.py` to the Scripts grid and run it. Stop any older ChestLoot script first.
+1. On this repository's GitHub page, click **Code → Download ZIP**, then extract the ZIP.
+2. Copy `ChestLoot_Pro_1_0.py` and the entire `chestloot_modes` folder into Razor Enhanced's **Scripts** folder. Put them side by side; do not put the `.py` file inside `chestloot_modes`.
+3. In Razor Enhanced's **Scripts** tab, add `ChestLoot_Pro_1_0.py` and run it. Stop any older ChestLoot script first.
 4. Choose a mode, open Options, and select that mode's destination bags. Configurable loot types start enabled on a new installation.
 
 ChestLoot Pro requires Ultima Online on UOAlive, ClassicUO with Razor Enhanced, and Python scripting enabled in Razor Enhanced.
