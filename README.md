@@ -23,6 +23,15 @@ ChestLoot Pro requires Ultima Online on UOAlive, ClassicUO with Razor Enhanced, 
 
 Options and recorded-rare lists use the shared ChestLoot title, including in transparent mode. The context labels `Rare Dungeon Items` and `Rare Shop Items` appear inside the appropriate gumps.
 
+## Exodus: what one Scan Area click does
+
+You do not need to keep pressing **Scan Area** while the search is running. If an Exodus box is already visible nearby, the script uses it without casting Detect Hidden.
+
+- With **Detect Hidden Training off**, a completed Detect Hidden use gets one roughly three-second result window. If no box appears, the scan stops and asks you to reposition before clicking again. If the skill never opens a target cursor, the scan can retry on its own about every 10.5 seconds, up to a three-minute scan timeout. Watch the journal rather than repeatedly pressing the button.
+- With **Detect Hidden Training on**, the script repeats Detect Hidden roughly every 10.25 seconds until it reveals a box, you press **Stop Training**, or you leave the scan's facet. Training starts disabled each session.
+
+Once a box is found, **Remove Trap** makes at most five tries in that workflow, including any try blocked by a skill cooldown. A detected “You must wait” journal response leads to an approximately 10.5-second pause before the next try. If this script just used Detect Hidden, it waits for that known skill cooldown *before* its first Remove Trap try. A cooldown that prevents the target cursor from opening may instead consume a try with only a short pause; check the journal and let the current workflow finish before starting another scan.
+
 ## Saved choices
 
 The script creates `ChestLootPro_Settings.json` and `ChestLootPro_Knowledge.json` beside the launcher. These hold bags, options, recorded rares, and learned items. Back up both files before updating, and keep them beside the new launcher to retain your records. For a truly fresh installation, start without those two files; no JSON files are included in the download.
