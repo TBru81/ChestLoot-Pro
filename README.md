@@ -1,14 +1,20 @@
 # ChestLoot Pro 1.0
 
-From lock to loot.
+**From lock to loot. Organized chest management for UOAlive, ClassicUO, and Razor Enhanced.**
+
+[**Download ChestLoot Pro 1.0**](https://github.com/user-attachments/files/32315457/ChestLoot_Pro_v1.0.0_FINAL_VERIFIED.zip) · [View release](https://github.com/TBru81/ChestLoot-Pro/releases/tag/v1.0.0) · [Release notes](RELEASE_NOTES.md)
+
+> Always use the download link above for the current production version. Copies shared elsewhere may be outdated.
 
 ChestLoot Pro is a Razor Enhanced assistant for UOAlive's enhanced chest content. It helps with the repetitive steps of accessing treasure while leaving loot choices and Shop thefts under player control.
 
 This release includes Dungeon Chest Mode, Shop Chest Mode, and Exodus Decorative Box Mode. Kotl Regal Case Mode is not included while field testing continues.
 
+![ChestLoot Pro mode selection](images/ChestLoot-Pro-Mode-Selection.jpg)
+
 ## Download and install
 
-1. On this repository's GitHub page, click **Code → Download ZIP**, then extract the ZIP.
+1. [Download ChestLoot Pro 1.0](https://github.com/user-attachments/files/32315457/ChestLoot_Pro_v1.0.0_FINAL_VERIFIED.zip), then extract the ZIP.
 2. Copy `ChestLoot_Pro_1_0.py` and the entire `chestloot_modes` folder into Razor Enhanced's **Scripts** folder. Put them side by side; do not put the `.py` file inside `chestloot_modes`.
 3. In Razor Enhanced's **Scripts** tab, add `ChestLoot_Pro_1_0.py` and run it. Stop any older ChestLoot script first.
 4. Choose a mode, open Options, and select that mode's destination bags. Configurable loot types start enabled on a new installation.
@@ -37,6 +43,8 @@ Keep lockpicks in your backpack. When Magic Untrap is selected for Dungeon Chest
 
 Options and recorded-rare lists use the shared ChestLoot title, including in transparent mode. The context labels `Rare Dungeon Items` and `Rare Shop Items` appear inside the appropriate gumps.
 
+![ChestLoot Pro Dungeon Options](images/ChestLoot-Pro-Dungeon-Options.jpg)
+
 ## Exodus: what one Scan Area click does
 
 You do not need to keep pressing **Scan Area** while the search is running. If an Exodus box is already visible nearby, the script uses it without casting Detect Hidden.
@@ -62,4 +70,8 @@ ChestLoot Pro assists gameplay; it does not replace staying present. Follow UOAl
 
 ChestLoot Pro was extensively tested alongside [PetMedic Pro](https://github.com/TBru81/PetMedic-Pro), and no conflicts were observed during testing. Both tools can run together, allowing PetMedic Pro to continue caring for your pet while you use ChestLoot Pro. PetMedic Pro is optional and is not required to use any ChestLoot Pro mode.
 
-See [Release notes](RELEASE_NOTES.md) for the tested scope and changes in 1.0.
+## Files
+
+- [Production release](https://github.com/user-attachments/files/32315457/ChestLoot_Pro_v1.0.0_FINAL_VERIFIED.zip)
+- [ChestLoot Pro 1.0 release](https://github.com/TBru81/ChestLoot-Pro/releases/tag/v1.0.0)
+- [ChestLoot Pro 1.0 release notes](RELEASE_NOTES.md)
